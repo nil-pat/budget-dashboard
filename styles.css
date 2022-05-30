@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: #e6f7ec;
+}
+
+.titleblock{
+    background: greenyellow;
+    text-align: center;
+    font-size: 30px;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    
+    display: inline-block;
+    cursor: pointer; /* "hand" cursor */
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: darkgreen;
+}

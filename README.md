@@ -1,2 +1,2 @@
 # budget-dashboard
-A website dashboard to track your monthly budget
+A javascript dashboard to visualize your spending.
